@@ -65,6 +65,7 @@ unsets = cfgunsets
 psh = push
 pshup = psh --set-upstream
 
+pushup = pshup
 push-upstream = pshup
 
 # rec = --recurse-submodules
