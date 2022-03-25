@@ -17,19 +17,13 @@
 # -Q | --query: Query
 # -i | --info: Package information
 # alias pain="paru -Scuy --color=auto --needed"
-alias pain="paru --sync --sysupgrade --refresh --needed --color=auto"
-alias painy="pain --noconfirm"
-alias painyes="painy"
-alias pain-yes="painyes"
+alias paruadd="paru --sync --sysupgrade --refresh --needed --color=auto"
+alias paruaddy="pain --noconfirm"
 
 # alias paun="paru -Rcsu --color=auto"
-alias paun="paru --remove --cascade --recursive --unneeded --color=auto"
-alias pauny="paun --noconfirm"
-alias paunyes="pauny"
-alias paun-yes="paunyes"
+alias parurem="paru --remove --cascade --recursive --unneeded --color=auto"
+alias paruremy="paun --noconfirm"
 
-alias paruinfo="paru --query --info"
-alias paru-info="paruinfo"
+alias paruinf="paru --query --info"
 
-alias parusearch="paru --sync --search --color=auto"
-alias paru-search="parusearch"
+alias parufnd="paru --sync --search --color=auto"
